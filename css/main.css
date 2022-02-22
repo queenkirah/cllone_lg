@@ -1,0 +1,402 @@
+*{padding:0; margin:0; font-family: sans-serif;}
+
+/* Header section start */
+
+.header{height: 90px; width:100%; display: flex; align-items: center; justify-content: space-between;}
+.header .ig-logo img{width: 50px;}
+.header .logo{width:10%;}
+.header .nav-links{width:88%;}
+.header a{text-decoration:none; color:black; margin:5px; padding:10px;}
+.header .nav-links .row1{display: flex; justify-content: space-between; border-bottom: 0.4px solid lightgray; padding-bottom: 5px;}
+.header .nav-links .row2{height: 10px; display: flex; justify-content: space-between; padding-top: 5px;}
+.header .nav-links .row2 .right img{width: 20px;}
+.header .nav-link .row2-mobile{display: none;}
+.header .menu-icon{display: none;}
+.row2-mobile{display: none;} 
+.row2-mobile .right img{
+    width: 20px;
+}
+
+
+/* Header section End  */
+
+/* spider section start */
+.slider{width: 100%; height: 900px; background-image: url("../img/banner.webp"); background-repeat: no-repeat; background-size: countain;}
+.slider a{text-decoration: none; color:white; background-color: maroon; padding: 15px; position: absolute; top: 90%; left: 10%; 
+}
+
+/*slider section End */
+
+/*wint section start */
+.wint{ width: 80%;  }
+.wint{display:flex; justify-content: center; align-items: center; margin: 0 auto; }
+.wint1 img{height: 275px;}
+.wint1{text-align:center; border: 1px solid grey; padding:20px 15px 20px 15px; border-radius: 10px;}
+
+.wint2{text-align:center; border: 1px solid grey; margin-right:40px; margin-left:40px; padding:20px 15px 20px 15px; border-radius: 10px }
+.wint2 img{width: 100%; height: 300px;}
+
+.wint3 img{ height: 300px; }
+.wint3{border: 1px solid grey; text-align:center; padding:20px 15px 20px 15px; border-radius: 10px;}
+
+/* wint section End */
+ 
+/* winter section start */
+.winter{width: 100%; height: 450px; background-image: url("../img/B2B\ Banner-01-01.webp"); background-size: cover; margin-top: 100px; text-align: center; }
+.winter .btn{padding-top: 150px;}
+.winter a{text-decoration: none; color: white; background-color: maroon; padding: 10px; border-radius: 5px;}
+.winter.btn a{text-decoration: none; color: white; background-color: maroon; padding: 10px; border-radius: 5px;}
+
+  
+
+
+/* winter Section End */
+
+/* pour Section Start */
+.pour{width: 90%; margin: auto; margin-top: 100px; display: flex; justify-content: space-evenly;}
+.pour1{width: 30%;}
+.pour1 img{width: 100%; height: 290px; object-fit: cover;}
+
+
+.pour2{width: 30%;}
+.pour2 img{width: 100%; height: 290px; object-fit: cover;}
+
+.pour3{width: 30%;}
+.pour3 img{width: 100%; height: 290px; object-fit: cover;}
+
+/* pour section end */
+
+/*you section start */
+.you{ width: 100%; border: 1px solid lightgrey; border-top: none; border-right: none; margin-top:80px; margin-bottom: 20px; padding-right: 10px; padding-left: 10px;}
+
+.you h4{padding-left: 350px; }
+.you ul{display: flex; justify-content: center; margin-left: 50px;}
+.you ul li{list-style: none; margin-left: 20px; margin-right: 20px; margin-bottom: 25px; color: gray;}
+
+/* you section end */
+
+/* bread section start */
+.bread{width: 100%; display: flex; margin-top: 70px; justify-content: space-between; text-align: center;
+font-size: 20px; margin-bottom: 50px;}
+
+/* bread section end */
+
+/* beans section start */
+.beans{width: 96%; display: flex; justify-content: space-around; margin: auto; margin-top: 100px; }
+.beans .beans1{width: 38%; background-image: url("../img/africa-home-block-1-t.webp"); height: 795px;
+background-size: cover; text-align: center;}
+.beans1 h1{color: white; margin-top: 40px;}
+.beans .row{width: 58%;} 
+.beans .row h2{font-size:30px; padding-top: 25px; padding-left: 25px;}
+.beans .row1{ height: 400px; background-image: url("../img/africa-home-block-2-d.webp"); margin-bottom: 15px; background-size: cover;}
+
+.beans .row2{ height: 380px; background-image: url("../img/africa-home-block-3-d.webp"); margin-bottom: 15px; background-size: cover;}
+
+/* beans section end */
+
+/* Nat section start */
+.Nat{width: 100%; display: flex; justify-content: space-around; margin-top: 60px; margin-bottom: 70px;}
+.Nat img{width: 70px;}
+
+
+/* Nat section end */
+
+/* nat section start */
+.nat{width: 100%; text-align: center;}
+.nat p{color: gray; margin-top: 50px; margin-bottom: 40px;}
+
+/* nat section end */
+
+/* nata section start */
+.nata{width: 100%; display: flex; text-align: center; justify-content: space-evenly; margin-left: 20px; margin-right: 20px; margin-bottom: 40px;}
+
+/* nata section end */
+
+/* Nata section start */
+.Nata{width: 100%; text-align: center; margin-top: 70px; margin-bottom: 40px;}
+.Nata p{color: gray; margin-top: 20px;}
+
+/* Nata section end */
+
+/* Natal section start */
+.Natal{width: 100%; display: flex; justify-content: space-between; text-align: center; margin-bottom: 40px;}
+.Natal1{margin-left: 100px; }
+.Natal ul{list-style: none; color: gray; margin-top: 20px;}
+.Natal h2{margin-top: 20px;}
+.Natal2 p{color: gray; margin-top: 20px;}
+.Natal3{margin-right: 50px;}
+
+
+
+
+
+ 
+
+
+
+/* this is the css for home appliance page */
+
+.cord{border: 0.4px solid lightgrey;} 
+
+/*cord section end */
+
+ /* corde section start */
+ .corde{margin-top: 25px; padding-left: 30px;} 
+
+ /* corde section end */
+
+ /* section1 start */
+ .section1{text-align: center; margin-top: 50px;}
+ .section1 h1{margin-bottom: 20px;}
+ .section1 h5{color: grey;}
+
+ /* section1 end */
+
+ /* section2 start */
+ .section2{width: 100%; height: 630px; background-image: url("../img/Home\ Appliance/africa-homeappliances-hero-1-d.jpg"); background-color: black; color: white; margin-top: 25px;}
+ .section2 h1{margin-left: 920px; font-size: 70px; padding-top: 150px;}
+ .section2 p{margin-left: 920px; font-size: 25px; margin-top: 30px; margin-bottom: 30px;}
+ .section2 a{margin-top: 30px; margin-left: 920px; background-color: maroon; padding: 18px; border-radius: 5px;  }
+
+ /* section2 end */
+
+ /* section3 start */
+ .section3 .rol1{ text-align: center; font-size: 30px; margin-top: 30px; margin-bottom: 50px;} 
+  .section3 .COL{width: 100%; height: 500px; display: flex; justify-content: space-between;}
+  .section3 .COL h2{padding-top: 25px;}
+  .section3 .COL1{width: 23%; margin-left: 20px; text-align: center; border: 1px solid lightgrey; border-radius: 10px;}
+  .section3 .COL1 img{width: 100%; height: 400px;}
+  .section3 .COL2{width: 23%;  border: 1px solid lightgrey; border-radius: 10px; text-align: center;}
+  .section3 .COL2 img{width: 100%; height: 400px;}
+  .section3 .COL3{width: 23%; text-align: center; border: 1px solid lightgrey; border-radius: 10px;}
+  .section3 .COL3 img{width:  100%; height: 400px;}
+  .section3 .COL4{width: 23%;  text-align: center; border: 1px solid lightgrey; border-radius: 10px;}
+  .section3 .COL4 h6{font-size: 12px;}
+  .section3 .COL4 img{width: 100%; height: 400px; }
+  
+ 
+
+
+
+
+
+
+
+ /* sectione end */
+
+ /* Row start */
+
+ .Row .Row1{ text-align: center; margin-top: 50px; font-size: 22px;}
+ .colum{width: 90%; height: 100px; display: flex; justify-content: space-between; margin-left: 50px; margin-top: 40px;}
+.colum1 p{text-align: center; color: white; background-color: maroon; padding: 10px; border-radius: 5px; margin-top: 10px;}
+.colum2 p{text-align: center; color: white; background-color: maroon; padding: 10px; border-radius: 5px; margin-top: 10px;} 
+.colum3 p{text-align: center; color: white; background-color: maroon; padding: 10px; border-radius: 5px; margin-top: 10px;} 
+.colum4 p{text-align: center; color: white; background-color: maroon; padding: 10px; border-radius: 5px; margin-top: 10px;} 
+.colum5 p{text-align: center; color: white; background-color: maroon; padding: 10px; border-radius: 5px; margin-top: 10px;} 
+.colum6 p{text-align: center; color: white; background-color: maroon; padding: 10px; border-radius: 5px; margin-top: 10px;}
+
+/* Row section end */
+
+/* drive section start */
+.drive{width: 100%; height: 750px; background-image: url("../img/Home\ Appliance/africa-homeappliances-supercategory-5(1).jpg");  margin-top: 30px;}
+.drive h1{color: white;  font-size: 50px; margin-left: 900px; padding-top: 150px;}
+.drive h5{color: white; margin-left: 900px; padding-top: 30px; padding-bottom: 40px;}
+.drive a{color: white; margin-left: 900px; background-color: maroon; padding: 13px; border-radius: 5px;}
+
+/* drive section end */
+
+/* bring section start */
+.bring{width: 100%; height: 800px; background-image: url("../img/Home\ Appliance/africa-homeappliances-supercategory-6(1).jpg"); }
+.bring h1{color: white; font-size: 50px; margin-left: 900px; padding-top: 250px; padding-bottom: 40px;}
+.bring a{color: white; margin-left: 900px; background-color: maroon; padding: 13px; border-radius: 5px}
+
+/* bring section end */
+
+/* product section start */
+.product{text-align: center; margin-bottom: 30px; margin-top: 60px;}
+.product1 h1{font-size: 40px; margin-bottom: 20px;}
+.product2 p{color: grey;} 
+
+/* product section end */
+
+/* PRODUCT section start */
+
+.PRODUCT{width: 90%; display:flex;  margin:auto; padding-top: 35px; padding-bottom: 30px; 
+    justify-content: space-between; text-align: center; }
+.PRODUCT h2{margin: 20px 0px 20px 0px;}    
+.PRODUCT1 ul{list-style: none; color: gray; margin-top: 20px;}
+.PRODUCT1 ul li{margin: 5px;}
+.PRODUCT2 p{ color: gray; } 
+
+
+
+
+
+
+/* this is the css for tv_audio_video */
+
+/* pillow section start */
+.pillow{border: 0.4px solid lightgray ;}
+
+/* pillow section end */
+
+/* case section star */
+.case{margin-top: 20px; margin-left: 20px; color: grey; }
+
+/* case section end */
+
+/* Case section start */
+.Case{text-align: center; margin-top: 30px; }
+.Case2 h5{color: gray; margin-bottom: 20px;}
+
+/* Case section end */
+
+/* close sction start */
+.close{width: 100%; height: 600px; background-image: url("../img/LG\ TV_Audio_Video/africa-tvaudiovideo-hero-2-d.jpg"); background-color: black; margin-bottom: 20px;}
+.close1 h1{margin-left: 930px; padding-top: 220px; color: white; font-size: 60px; padding-bottom: 30px;}
+.close1 a{margin-left: 930px; color: white; background-color: maroon; padding: 13px; border-radius: 5px;}
+
+/* close section end */
+
+/* Close section start */
+.Close{width: 95%; height: 550px; display: flex; justify-content: space-between; margin-bottom: 30px; margin-top: 40px;}
+.Close h3{margin-top: 40px;}
+.Close p{color: gray;}
+.Close1{width: 22%; text-align: center; margin-left: 20px; border: 1px solid lightgrey; border-radius: 10px;}
+.Close1 img{width: 100%; height: 400px;}
+.Close2{width: 22%; text-align: center; border: 1px solid lightgrey; border-radius: 10px;}
+.Close2 img{width: 100%; height: 400px; }
+.Close3{width: 22%; text-align: center; border: 1px solid lightgrey; border-radius: 10px;}
+.Close3 img{width: 100%; height: 400px;}
+.Close4{width: 22%; text-align: center; border: 1px solid lightgrey; border-radius: 10px;}
+.Close4 img{width: 100%; height: 400px;}
+
+/* Close section end */
+
+/* remote section start */
+.remote{width: 100%; height: 500px; display: flex; justify-content: space-between; margin-top: 80px; margin-bottom: 40px;
+     text-align: center;}
+ .remote h3{margin-top: 40px;}    
+.remote1{width: 25%; margin-left: 20px; margin-right: 20px; border: 1px solid lightgrey; border-radius: 10px;}
+.remote2{width: 25%; margin-left: 10px; margin-right: 20px; border: 1px solid lightgrey; border-radius: 10px;}
+.remote3{width: 25%; margin-left: 10px; margin-right: 20px; border: 1px solid lightgrey; border-radius: 10px;}
+.remote4{width: 25%; margin-left: 10px; border: 1px solid lightgrey; border-radius: 10px;}
+
+/* remote section end */
+
+/* Rem section start */
+.RemA1{text-align: center; margin-bottom: 60px; }
+.Rem{width: 95%; height: 200px; display: flex; justify-content: space-between; padding-left: 40px;  }
+.Rem img{height: 70px;}
+.Rem p{text-align: center; color: white; background-color: maroon; padding: 18px; border-radius: 5px; margin-top: 10px;}
+
+/* RemA section end */
+
+/* bed section start */
+.bed{width: 100%; height: 800px; background-image: url(../img/LG\ TV_Audio_Video/africa-tvaudiovideo-pdp-1-d.jpg);}
+.bed1 h3{ margin-left: 830px; margin-bottom: 17px; font-size: 25px; padding-top: 300px;}
+.bed2 h1{font-size: 45px; margin-left:  820px; margin-bottom: 20px;}
+.bed3{margin-left: 55%; width: 200px; color: white; background-color: maroon; padding: 20px; border-radius: 5px; text-align: center; }
+
+
+/* bed section */
+
+/* Bed section start */
+.Bed{width: 100%; height: 650px; background-image: url("../img/LG\ TV_Audio_Video/africa-tvaudiovideo-pdp-2-d.jpg");}
+.Bed h1{color: white; margin-left: 950px; padding-top: 220px; padding-bottom: 30px; font-size: 55px;}
+.Bed a{background-color: maroon; color: white; padding: 15px; border-radius: 5px; margin-left: 950px;}
+
+
+/* Bed section end */
+
+/* iron section start */
+
+.iron{width: 100%; height: 600px; background-image: url("../img/LG\ TV_Audio_Video/africa-tvaudiovideo-pdp-3-d.jpg");}
+.iron h1{color: white; font-size: 50px; padding-left: 40px; padding-top: 220px}
+.iron2{margin-left: 40px; margin-top: 10px; width: 200px; background-color: maroon; padding: 20px; border-radius: 5px;}
+
+/* iron section end */
+
+/* Tom section start */
+.Tom{width: 97%; height: 700px; display: flex; justify-content: space-around; margin: 0 auto; margin-top: 30px; margin-bottom: 50px;}
+.Tom1 .ROl1{width: 740px; height: 350px; background-image: url("../img/LG\ TV_Audio_Video/africa-tvaudiovideo-block-1-d.jpg");
+ margin-left: 30px; margin-bottom: 30px;}
+.Tom1 h1{color: white; padding-left: 20px; padding-top: 40px;}
+.Tom1 .ROl2{height: 350px; background-image: url("../img/LG\ TV_Audio_Video/africa-tvaudiovideo-block-2-d.jpg"); margin-left: 30px;}
+.Tom2{width: 40%; height: 730px; background-image:  url("../img/LG\ TV_Audio_Video/africa-tvaudiovideo-block-3-d.jpg"); background-repeat: no-repeat;}
+.Tom2 h1{color: white; text-align: center; padding-top: 60px;}
+.Tom2 p{color: white; text-align: center; padding-top: 20px;}
+
+/* Tom section end */
+
+/* tom section start */
+.tom{text-align: center; margin-bottom: 40px;}
+.tom p{color: grey;}
+
+/* tom section end */
+
+/* tome section start */
+
+.tome{width: 90%; display: flex; justify-content: space-between; text-align: center; margin-bottom: 20px;}
+.tome h2{margin-top: 20px;}
+.tome1{margin-left: 80px;}
+.tome img{margin-top: 20px;}
+.tome1 ul{list-style: none; color: gray; margin-top: 20px;}
+.tome1 ul li{margin: 5px;}
+.tome2 p{margin-top: 20px; color: gray;}
+
+
+
+
+
+
+
+
+
+
+/*  CSS FOR MOBILE VERSION */
+
+@media (max-width:1050px ) {
+.header .nav-links{width: 90%;}
+.header a{font-size: 12px;}
+
+}
+
+
+@media (max-width:800px) {
+    .header .nav-links .row2{display: none;}
+    .header .nav-links .row2-mobile{display: flex; justify-content: space-between; padding-top: 5px;}
+    .slider{background-size: contain; height: 450px;}
+    .slider a{top: 70%; }
+    .wint {display:block; }
+    .wint1 img{width: 50%; }
+    .wint2 img{width: 60%;}
+    .wint2{margin-top: 20px; margin-bottom: 20px;}
+    
+
+    .winter {background-size: contain; height: 200px;}
+    .winter.btn{padding-top: 100px;}
+    .pour{display: block;}
+    .pour1{width: 90%; margin-top: 50px;}
+    .pour1 img{height: 300px;}
+    .pour2 img{width: 300%; height: 400px; margin-top: 50px;}
+    .pour3 img{width: 300%; margin-top: 50px;}
+    .bread{display: block;}
+    .bread1{width: 100%; margin-top: 50px;}
+    .bread1 img{height: 300px;}
+    .bread2{margin-top: 50px;}
+    .bread3{margin-top: 50px;}
+    .beans{display: block;}
+    .beans1 img{width: 200%; margin-top: 50px;}
+    .beans1 img{height: 300px}
+    .beans2 img{width: 600%;}
+    .beans3 img{width: 300%;}
+}
+
+
+  
+
+
+
+ 
+
